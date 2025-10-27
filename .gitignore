@@ -1,3 +1,15 @@
 .idea/
 out/
-/*.iml/
+*.iml
+
+
+/output/
+/dist/
+/generated/
+*.log
+*.pdf
+*.csv
+
+*.tmp
+*~
+#*#
