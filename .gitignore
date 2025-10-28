@@ -1,15 +1,17 @@
-.idea
-out/
+# IntelliJ IDEA
+.idea/
 *.iml
-*.xml
 
-/output/
-/dist/
-/generated/
+# Build Output
+out/
+target/   # Maven projeleri için
+build/    # Gradle projeleri için
+
+# Compiled Files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and other files
 *.log
-*.pdf
-*.csv
-
-*.tmp
-*~
-#*#
